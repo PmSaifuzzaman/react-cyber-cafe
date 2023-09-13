@@ -12,7 +12,7 @@ const Blogs = () => {
     },[])
     return (
         <div>
-            <h2>Count:{blogs.length}</h2>
+            <h2 className="mt-10 text-3xl font-semibold md:w-2/3">Blogs:{blogs.length}</h2>
         </div>
     );
 };
